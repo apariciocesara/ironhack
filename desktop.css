@@ -1,0 +1,141 @@
+@media (min-width: 920px) {
+  .navigation-items {
+    flex-wrap: initial;
+    justify-content: flex-end;
+  }
+
+  .navigation-item:nth-child(2) {
+    margin-left: 40px;
+  }
+
+  .navigation-home {
+    margin-right: auto;
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  .hero {
+    flex-direction: initial;
+    padding-bottom: 240px;
+  }
+
+  .hero-text {
+    order: 0;
+    margin-top: 0;
+    text-align: initial;
+    margin-right: auto;
+  }
+
+  .hero-image {
+    height: 330px;
+    margin-left: 40px;
+  }
+
+  .hero-form {
+    flex-wrap: initial;
+  }
+
+  .hero-email {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  .hero-button {
+    width: auto;
+  }
+
+  .cards {
+    padding: 40px;
+    margin-top: -140px;
+    flex-direction: initial;
+    margin-bottom: 140px;
+  }
+
+  .card:hover .card-image {
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, .25);
+  }
+
+  .card:not(:last-child) {
+    margin-right: 55px;
+    margin-bottom: 0;
+  }
+
+  .appinfo {
+    flex-direction: initial;
+    align-items: initial;
+    margin-bottom: 200px;
+  }
+
+  .appinfo-image {
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+
+  .appinfo-container {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .appinfo-button {
+    max-width: 200px;
+    width: auto;
+  }
+
+  .quotes {
+    display: block;
+    padding: 50px 40px 100px;
+    background-image: url('../Images/quotes.svg');
+    background-repeat: no-repeat;
+    background-size: 255px 263px;
+  }
+
+  .quotes-title {
+    margin-bottom: 130px;
+    font-size: 26px;
+  }
+
+  .quotes-list {
+    margin-left: 30px;
+    display: flex;
+  }
+
+  .quote {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 70px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+  }
+
+  .quote:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .quote-image {
+    width: 50px;
+    margin-bottom: 30px;
+  }
+
+  .quote-author {
+    margin-top: 60px;
+  }
+
+  .subscribe {
+    margin-bottom: 100px;
+  }
+
+  .subscribe-form {
+    flex-wrap: initial;
+  }
+
+  .subscribe-email {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  .subscribe-button {
+    width: auto;
+  }
+}
