@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: #fffcfb;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 0 40px;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+}
+
+.navigation {
+  padding: 30px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.navigation-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navigation-item {
+  margin-left: 40px;
+}
+
+.navigation-item:nth-child(2) {
+  margin-left: 0;
+}
+
+.navigation-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-home {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.navigation-logo {
+  height: 40px;
+}
+
+.hero {
+  padding: 48px 0 175px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 580px;
+  order: 2;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.hero-form {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-email {
+  padding: 15px 20px;
+  font-size: inherit;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.hero-button {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  border: 0;
+  font-size: inherit;
+  padding: 15px 40px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.hero-button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.hero-image {
+  max-width: 434px;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  width: 100%;
+}
+
+.cards {
+  border-radius: 20px;
+  background-color: #fff;
+  margin-top: -125px;
+  box-shadow: 0 10px 35px 0 rgba(210, 210, 210, 0.5);
+  padding: 40px 20px;
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+
+.card {
+  line-height: 1.5;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.card:hover .card-image {
+  box-shadow: 0 10px 5px rgba(0, 0, 0, .25);
+}
+
+.card:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.card-image {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  border: 3px solid #000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.card-divider {
+  width: 70px;
+  height: 5px;
+  border-radius: 2.5px;
+  margin-bottom: 20px;
+  background-color: #000;
+}
+
+.appinfo {
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appinfo-image {
+  max-width: 540px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.appinfo-container {
+  max-width: 462px;
+  text-align: center;
+}
+
+.appinfo-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.appinfo-subtitle {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.appinfo-text {
+  line-height: 1.88;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.appinfo-button {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  border: 0;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 15px 40px;
+  color: #fff;
+  font-size: inherit;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.appinfo-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.quotes {
+  display: none;
+}
+
+.subscribe {
+  text-align: center;
+  max-width: 660px;
+  margin: 0 auto 70px;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.subscribe-text {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subscribe-email {
+  padding: 15px 20px;
+  font-size: inherit;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.subscribe-button {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  border: 0;
+  font-size: inherit;
+  padding: 15px 40px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.subscribe-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #000;
+  padding: 30px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-items {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+}
